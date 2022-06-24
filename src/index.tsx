@@ -4,10 +4,16 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import TagManager from "react-gtm-module";
 
+const tagManagerArgs = {
+  gtmId: "GTM-KWGXZSN",
+};
+TagManager.initialize();
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
+
 root.render(
   <React.StrictMode>
     <BrowserRouter>
