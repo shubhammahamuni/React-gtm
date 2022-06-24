@@ -9,7 +9,7 @@ import TagManager from "react-gtm-module";
 const tagManagerArgs = {
   gtmId: "GTM-KWGXZSN",
 };
-TagManager.initialize();
+TagManager.initialize(tagManagerArgs);
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
