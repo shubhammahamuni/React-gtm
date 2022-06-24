@@ -6,7 +6,6 @@ import Feature from "./Component/Feature";
 import { Link, Route, Routes } from "react-router-dom";
 
 function App() {
-  const d = new Date();
   // async function postData(url = "", data = {}) {
   //   const response = await fetch(url, {
   //     method: "POST",
